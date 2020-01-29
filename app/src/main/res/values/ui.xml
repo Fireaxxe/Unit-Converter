@@ -1,0 +1,13 @@
+<resources>
+    <style name="app_theme" parent="Theme.AppCompat.DayNight.NoActionBar" />
+    <style name="app_theme.main">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    <style name="app_theme.settings" />
+    <dimen name="app_bar_height">35dp</dimen>
+    <dimen name="card_view_margin_top">35dp</dimen>
+    <item type="id" name="container" />
+    <item type="id" name="unit_string" />
+    <item type="id" name="unit_number" />
+    <item type="id" name="unit_symbol" />
+</resources>

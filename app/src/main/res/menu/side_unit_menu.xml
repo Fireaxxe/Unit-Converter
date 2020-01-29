@@ -1,0 +1,49 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <group android:id="@+id/units_menu">
+        <item
+            android:id="@+id/unit_area"
+            android:icon="@drawable/icon_area"
+            android:title="@string/unit_area" />
+        <item
+            android:id="@+id/data_transfer_rate"
+            android:icon="@drawable/icon_data_transfer_rate"
+            android:title="@string/unit_data_transfer_rate" />
+        <item
+            android:id="@+id/unit_digital_storage"
+            android:icon="@drawable/icon_digital_storage"
+            android:title="@string/unit_digital_storage" />
+        <item
+            android:id="@+id/unit_length"
+            android:icon="@drawable/icon_length"
+            android:title="@string/unit_length" />
+        <item
+            android:id="@+id/unit_mass"
+            android:icon="@drawable/icon_mass"
+            android:title="@string/unit_mass" />
+        <item
+            android:id="@+id/unit_speed"
+            android:icon="@drawable/icon_speed"
+            android:title="@string/unit_speed" />
+        <item
+            android:id="@+id/unit_temperature"
+            android:icon="@drawable/icon_temperature"
+            android:title="@string/unit_temperature" />
+        <item
+            android:id="@+id/unit_time"
+            android:icon="@drawable/icon_time"
+            android:title="@string/unit_time" />
+        <item
+            android:id="@+id/unit_volume"
+            android:icon="@drawable/icon_volume"
+            android:title="@string/unit_volume" />
+    </group>
+
+    <group
+        android:id="@+id/other_menu" >
+        <item
+            android:id="@+id/settings_menu"
+            android:icon="@drawable/icon_settings_button"
+            android:title="@string/other_settings" />
+    </group>
+</menu>

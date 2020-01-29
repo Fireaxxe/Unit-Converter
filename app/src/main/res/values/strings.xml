@@ -1,0 +1,224 @@
+<resources>
+
+    <string name="app_name">Unit Convertion Assignment</string>
+
+    <!--ACTIONS-->
+
+    <string name="clear">Clear</string>
+    <string name="restart">Restart</string>
+
+    <!--MESSAGES-->
+
+    <string name="restart_message">App restart required</string>
+    <string name="clipboard_message">Copied to clipboard</string>
+    <string name="enter_a_number_text">Enter a number</string>
+
+    <!--UNITS-->
+
+    <string name="unit_length">Length</string>
+    <string name="unit_area">Area</string>
+    <string name="unit_volume">Volume</string>
+    <string name="unit_mass">Mass</string>
+    <string name="unit_time">Time</string>
+    <string name="unit_speed">Speed</string>
+    <string name="unit_temperature">Temperature</string>
+    <string name="unit_digital_storage">Digital Storage</string>
+    <string name="unit_data_transfer_rate">Data Transfer Rate</string>
+    <string name="other_settings">Settings</string>
+
+    <!--NIGHT-DAY-THEME-->
+
+    <string name="night_day_theme">Theme</string>
+    <string-array name="night_day_theme">
+        <item>Normal Mode</item>
+        <item>Dark Mode</item>
+    </string-array>
+    <string-array name="theme_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <!--LENGTH-->
+
+    <string name="metre">Metre</string>
+    <string name="kilometre">Kilometre</string>
+    <string name="mile">Mile</string>
+    <string name="yard">Yard</string>
+    <string name="feet">Foot</string>
+    <string name="inch">Inch</string>
+    <string name="centimetre">Centimetre</string>
+    <string name="millimetre">Millimetre</string>
+    <string name="micrometre">Micrometre</string>
+    <string name="light_year">Light-year</string>
+    <string name="nanometre">Nanometre</string>
+    <string name="nautical_mile">Nautical mile</string>
+
+    <string name="metre_symbol">m</string>
+    <string name="kilometre_symbol">km</string>
+    <string name="mile_symbol">mi</string>
+    <string name="yard_symbol">yd</string>
+    <string name="foot_symbol">ft</string>
+    <string name="inch_symbol">in</string>
+    <string name="centimetre_symbol">cm</string>
+    <string name="millimetre_symbol">mm</string>
+    <string name="micrometre_symbol">µm</string>
+    <string name="light_year_symbol">ly</string>
+    <string name="nanometre_symbol">nm</string>
+    <string name="nautical_mile_symbol">nmi</string>
+
+    <!--AREA-->
+
+    <string name="sq_metre">Square Metre</string>
+    <string name="sq_kilometre">Square Kilometre</string>
+    <string name="sq_yard">Square Yard</string>
+    <string name="sq_foot">Square Foot</string>
+    <string name="sq_inch">Square Inch</string>
+    <string name="sq_mile">Square Mile</string>
+
+    <string name="sq_metre_symbol">m²</string>
+    <string name="sq_kilometre_symbol">km²</string>
+    <string name="sq_yard_symbol">yd²</string>
+    <string name="sq_foot_symbol">ft²</string>
+    <string name="sq_inch_symbol">in²</string>
+    <string name="sq_mile_symbol">mi²</string>
+
+    <!--VOLUME-->
+
+    <string name="cu_metre">Cubic Metre</string>
+    <string name="litre">Litre</string>
+    <string name="millilitre">Millilitre</string>
+    <string name="cu_foot">Cubic Foot</string>
+    <string name="cu_inch">Cubic Inch</string>
+    <string name="gallon">Imperial Gallon</string>
+    <string name="quart">Imperial Quart</string>
+    <string name="pint">Imperial pint</string>
+    <string name="fluid_ounce">Imperial Fluid Ounce</string>
+    <string name="tablespoon">Imperial Tablespoon</string>
+    <string name="teaspoon">Imperial Teaspoon</string>
+
+    <string name="cu_metre_symbol">m³</string>
+    <string name="litre_symbol">L</string>
+    <string name="millilitre_symbol">mL</string>
+    <string name="cu_foot_symbol">ft³</string>
+    <string name="cu_inch_symbol">in³</string>
+    <string name="gallon_symbol">gal</string>
+    <string name="quart_symbol">qt</string>
+    <string name="pint_symbol">pt</string>
+    <string name="fluid_ounce_symbol">fl oz</string>
+    <string name="tablespoon_symbol">tbsp</string>
+    <string name="teaspoon_symbol">tsp</string>
+
+    <!--MASS-->
+
+    <string name="kilogram">Kilogram</string>
+    <string name="stone">Stone</string>
+    <string name="pound">Pound</string>
+    <string name="ounce">Ounce</string>
+    <string name="tonne">Tonne</string>
+    <string name="gram">Gram</string>
+
+    <string name="kilogram_symbol">kg</string>
+    <string name="stone_symbol">st</string>
+    <string name="pound_symbol">lb</string>
+    <string name="ounce_symbol">oz</string>
+    <string name="tonne_symbol">t</string>
+    <string name="gram_symbol">g</string>
+
+    <!--TIME-->
+
+    <string name="millisecond">Millisecond</string>
+    <string name="second">Second</string>
+    <string name="minute">Minute</string>
+    <string name="hour">Hour</string>
+    <string name="day">Day</string>
+    <string name="week">Week</string>
+    <string name="month">Month</string>
+    <string name="year">Year</string>
+    <string name="decade">Decade</string>
+    <string name="century">Century</string>
+
+    <string name="millisecond_symbol">ms</string>
+    <string name="second_symbol">s</string>
+    <string name="minute_symbol">min</string>
+    <string name="hour_symbol">h</string>
+    <string name="day_symbol">d</string>
+    <string name="week_symbol">wk</string>
+    <string name="month_symbol">mo</string>
+    <string name="year_symbol">yr</string>
+    <string name="decade_symbol">dec</string>
+    <string name="century_symbol">c</string>
+
+    <!--SPEED-->
+
+    <string name="metre_sec">Metre per Second</string>
+    <string name="mile_h">Mile per Hour</string>
+    <string name="km_h">Kilometre per Hour</string>
+    <string name="knot">Knot</string>
+    <string name="s_light">Speed of Light</string>
+    <string name="s_sound">Speed of Sound</string>
+
+    <string name="metre_sec_symbol">m/s</string>
+    <string name="mile_h_symbol">mph</string>
+    <string name="km_h_symbol">km/h</string>
+    <string name="knot_symbol">kn</string>
+    <string name="s_light_symbol">c</string>
+    <string name="s_sound_symbol">s</string>
+
+    <!--TEMPERATURE-->
+
+    <string name="kelvin">Kelvin</string>
+    <string name="celsius">Celsius</string>
+    <string name="fahrenheit">Fahrenheit</string>
+
+    <string name="kelvin_symbol">°K</string>
+    <string name="celsius_symbol">°C</string>
+    <string name="fahrenheit_symbol">°F</string>
+
+    <!--DIGITAL_STORAGE-->
+
+    <string name="bit">Bit</string>
+    <string name="byte_">Byte</string>
+    <string name="kbit">Kilobit</string>
+    <string name="kbyte">Kilobyte</string>
+    <string name="mbit">Megabit</string>
+    <string name="mbyte">Megabyte</string>
+    <string name="gbit">Gigabit</string>
+    <string name="gbyte">Gigabyte</string>
+    <string name="tbit">Terabit</string>
+    <string name="tbyte">Terabyte</string>
+    <string name="pbit">Petabit</string>
+    <string name="pbyte">Petabyte</string>
+
+    <string name="bit_symbol">bit</string>
+    <string name="byte_symbol">B</string>
+    <string name="kbit_symbol">kb</string>
+    <string name="kbyte_symbol">kB</string>
+    <string name="mbit_symbol">Mbit</string>
+    <string name="mbyte_symbol">MB</string>
+    <string name="gbit_symbol">Gb</string>
+    <string name="gbyte_symbol">GB</string>
+    <string name="tbit_symbol">Tbit</string>
+    <string name="tbyte_symbol">TB</string>
+    <string name="pbit_symbol">Pb</string>
+    <string name="pbyte_symbol">PB</string>
+
+    <!--DATA_TRANSFER_RATE-->
+
+    <string name="kbps">Kilobit per Second</string>
+    <string name="kB_s">Kilobyte per Second</string>
+    <string name="Mbps">Megabit per Second</string>
+    <string name="MB_s">Megabyte per Second</string>
+    <string name="Gbps">Gigabit per Second</string>
+    <string name="GB_s">Gigabyte per Second</string>
+    <string name="Tbps">Terabit per Second</string>
+    <string name="TB_s">Terabyte per Second</string>
+
+    <string name="kbps_symbol">kbps</string>
+    <string name="kB_s_symbol">kB/s</string>
+    <string name="Mbps_symbol">Mbps</string>
+    <string name="MB_s_symbol">MB/s</string>
+    <string name="Gbps_symbol">Gbps</string>
+    <string name="GB_s_symbol">GB/s</string>
+    <string name="Tbps_symbol">Tbps</string>
+    <string name="TB_s_symbol">TB/s</string>
+</resources>

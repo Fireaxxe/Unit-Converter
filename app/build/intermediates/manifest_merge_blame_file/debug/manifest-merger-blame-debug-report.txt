@@ -1,0 +1,75 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.coc00031.assignment"
+4    android:versionCode="1" >
+5
+6    <uses-sdk
+7        android:minSdkVersion="21"
+7-->D:\Android Studio\coc00031 Assignment\app\src\main\AndroidManifest.xml
+8        android:targetSdkVersion="26" />
+8-->D:\Android Studio\coc00031 Assignment\app\src\main\AndroidManifest.xml
+9
+10    <application
+10-->D:\Android Studio\coc00031 Assignment\app\src\main\AndroidManifest.xml:7:5-35:19
+11        android:allowBackup="true"
+11-->D:\Android Studio\coc00031 Assignment\app\src\main\AndroidManifest.xml:11:9-35
+12        android:debuggable="true"
+13        android:icon="@mipmap/ic_launcher"
+13-->D:\Android Studio\coc00031 Assignment\app\src\main\AndroidManifest.xml:8:9-43
+14        android:label="@string/app_name"
+14-->D:\Android Studio\coc00031 Assignment\app\src\main\AndroidManifest.xml:9:9-41
+15        android:supportsRtl="true"
+15-->D:\Android Studio\coc00031 Assignment\app\src\main\AndroidManifest.xml:12:9-35
+16        android:testOnly="true"
+17        android:theme="@style/app_theme" >
+17-->D:\Android Studio\coc00031 Assignment\app\src\main\AndroidManifest.xml:10:9-41
+18        <meta-data
+18-->D:\Android Studio\coc00031 Assignment\app\src\main\AndroidManifest.xml:14:9-16:35
+19            android:name="android.max_aspect"
+19-->D:\Android Studio\coc00031 Assignment\app\src\main\AndroidManifest.xml:15:13-46
+20            android:value="2.1" />
+20-->D:\Android Studio\coc00031 Assignment\app\src\main\AndroidManifest.xml:16:13-32
+21
+22        <activity
+22-->D:\Android Studio\coc00031 Assignment\app\src\main\AndroidManifest.xml:18:9-29:20
+23            android:name="com.coc00031.assignment.MainActivity"
+23-->D:\Android Studio\coc00031 Assignment\app\src\main\AndroidManifest.xml:20:13-41
+24            android:theme="@style/app_theme.main"
+24-->D:\Android Studio\coc00031 Assignment\app\src\main\AndroidManifest.xml:19:13-50
+25            android:windowSoftInputMode="stateHidden" >
+25-->D:\Android Studio\coc00031 Assignment\app\src\main\AndroidManifest.xml:21:13-54
+26            <intent-filter>
+26-->D:\Android Studio\coc00031 Assignment\app\src\main\AndroidManifest.xml:23:13-28:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->D:\Android Studio\coc00031 Assignment\app\src\main\AndroidManifest.xml:24:17-25:65
+27-->D:\Android Studio\coc00031 Assignment\app\src\main\AndroidManifest.xml:25:21-62
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->D:\Android Studio\coc00031 Assignment\app\src\main\AndroidManifest.xml:26:17-27:71
+29-->D:\Android Studio\coc00031 Assignment\app\src\main\AndroidManifest.xml:27:21-68
+30            </intent-filter>
+31        </activity>
+32        <activity
+32-->D:\Android Studio\coc00031 Assignment\app\src\main\AndroidManifest.xml:31:9-34:58
+33            android:name="com.coc00031.assignment.Activity"
+33-->D:\Android Studio\coc00031 Assignment\app\src\main\AndroidManifest.xml:33:13-37
+34            android:parentActivityName="com.coc00031.assignment.MainActivity"
+34-->D:\Android Studio\coc00031 Assignment\app\src\main\AndroidManifest.xml:34:13-55
+35            android:theme="@style/app_theme.settings" />
+35-->D:\Android Studio\coc00031 Assignment\app\src\main\AndroidManifest.xml:32:13-54
+36
+37        <meta-data
+37-->[com.android.support:cardview-v7:26.1.0] C:\Users\Cotsios\.gradle\caches\transforms-2\files-2.1\9972ca46b8d1cf56abb65ff0c3153bbb\cardview-v7-26.1.0\AndroidManifest.xml:23:9-25:38
+38            android:name="android.support.VERSION"
+38-->[com.android.support:cardview-v7:26.1.0] C:\Users\Cotsios\.gradle\caches\transforms-2\files-2.1\9972ca46b8d1cf56abb65ff0c3153bbb\cardview-v7-26.1.0\AndroidManifest.xml:24:13-51
+39            android:value="26.1.0" />
+39-->[com.android.support:cardview-v7:26.1.0] C:\Users\Cotsios\.gradle\caches\transforms-2\files-2.1\9972ca46b8d1cf56abb65ff0c3153bbb\cardview-v7-26.1.0\AndroidManifest.xml:25:13-35
+40        <meta-data
+40-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\Cotsios\.gradle\caches\transforms-2\files-2.1\b4634732da982724afe03c23e21a35de\runtime-1.0.0\AndroidManifest.xml:25:9-27:47
+41            android:name="android.arch.lifecycle.VERSION"
+41-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\Cotsios\.gradle\caches\transforms-2\files-2.1\b4634732da982724afe03c23e21a35de\runtime-1.0.0\AndroidManifest.xml:26:13-58
+42            android:value="27.0.0-SNAPSHOT" />
+42-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\Cotsios\.gradle\caches\transforms-2\files-2.1\b4634732da982724afe03c23e21a35de\runtime-1.0.0\AndroidManifest.xml:27:13-44
+43    </application>
+44
+45</manifest>

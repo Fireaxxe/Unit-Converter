@@ -1,0 +1,12 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ListPreference
+        android:defaultValue="1"
+        android:key="night_day_theme"
+        android:title="@string/night_day_theme"
+        android:summary="%s"
+        android:icon="@drawable/icon_night_day_theme"
+        android:entries="@array/night_day_theme"
+        android:entryValues="@array/theme_values" />
+</PreferenceScreen>
